@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://payments.practo.com/favicon-consumer.ico" />
+    <title>view cart</title>
+    <link rel="stylesheet" href="../style/header_footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="practo_logo_new"></div>
+      </div>
+    </header>
+    <div class="bg-pale-grey-two">
+      <div class="prev_page" onclick="(location.href='../pages/filter.html')">
+        <p>Go to previous page</p>
+      </div>
+      <div class="cart_container">
+        <div class="cart_container1"><p id="tot_num"></p></div>
+        <div class="border_bottom_cart" id="data"></div>
+        <div
+          class="Adding_more_cart"
+          onclick="(location.href='../pages/filter.html')"
+        >
+          <button>Add more medicines</button>
+        </div>
+        <div class="u-position--fixed">
+          <div class="box_carting">
+            <p id="sum_amou"></p>
+            <button onclick="(location.href='../pages/payment.html')">
+              Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="../src/searchfield.js"></script>
+<script src="../src/viewcart.js"></script>
