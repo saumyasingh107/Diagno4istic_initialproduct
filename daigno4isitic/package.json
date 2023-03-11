@@ -7,8 +7,7 @@
     "start": "node server.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/swethav08711/practo_clone.git"
+    "type": "git"
   },
   "keywords": [
     "json-server,heroku, node, REST API"
@@ -16,9 +15,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/swethav08711/practo_clone/issues"
   },
-  "homepage": "https://github.com/swethav08711/practo_clone#readme",
   "dependencies": {
     "json-server": "^0.17.0"
   }
